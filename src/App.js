@@ -12,9 +12,7 @@ function App({bienvenida}) {
       <Navbar />
       <Banner />
       <ItemListContainer/>
-      <div>
-      {bienvenida}
-      </div>
+      <p>{bienvenida} </p>
       <ItemCount/>
     </div>
   );

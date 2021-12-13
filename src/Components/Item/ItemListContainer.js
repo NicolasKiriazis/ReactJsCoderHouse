@@ -40,10 +40,7 @@ allgames.push(fifa22, godofwar, tlofus, tsubasa, borderlands, godofwarps5, fifa2
 
 const ItemListContainer = () => {
     return(
-        <App bienvenida = {
-            <div>
-            <h1>Bienvenido</h1>
-            </div>}/>
+        <App bienvenida = {"bienvenida"}/>
     )
 }
 
