@@ -1,3 +1,4 @@
+import App from '../../App';
 import '../Item/ItemListContainer.css'
 
 const allgames = [];
@@ -39,7 +40,10 @@ allgames.push(fifa22, godofwar, tlofus, tsubasa, borderlands, godofwarps5, fifa2
 
 const ItemListContainer = () => {
     return(
-        <div><h1>ItemListContainer</h1></div>
+        <App bienvenida = {
+            <div>
+            <h1>Bienvenido</h1>
+            </div>}/>
     )
 }
 

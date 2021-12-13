@@ -9,7 +9,7 @@ const Navbar = () => {
 
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#"><img src="https://i.ibb.co/0cCgjfS/zgames-logo-chico.png" alt="zgames-logo-png"></img></a>
+                    <a className="navbar-brand" href="index.html"><img src="https://i.ibb.co/0cCgjfS/zgames-logo-chico.png" alt="zgames-logo-png"></img></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
@@ -23,8 +23,8 @@ const Navbar = () => {
 
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                                    <li><a className="dropdown-item" href="#">Playstation 4</a></li>
-                                    <li><a className="dropdown-item" href="#">Playstation 5</a></li>
+                                    <li><a className="dropdown-item" href="index.html">Playstation 4</a></li>
+                                    <li><a className="dropdown-item" href="index.html">Playstation 5</a></li>
 
                                 </ul>
 
